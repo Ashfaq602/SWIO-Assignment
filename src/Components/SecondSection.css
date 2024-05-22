@@ -1,0 +1,85 @@
+.container{
+  height:750px;
+  width:950px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 25px;
+  /* background: linear-gradient(135deg, #00FFDD, #009E80); */
+  background: linear-gradient(135deg, #00f5d4, #00d2f7, #00bf71);
+}
+.features-section {
+    padding: 50px 20px;
+    background-color: transparent;
+    color: #333;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: Black; /* Primary color for the heading */
+  }
+  
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the grid items */
+  }
+  
+  .feature-card {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.7); /* Lighter border */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for better visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .feature-card img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin:auto;
+    border-radius: 20px;
+  }
+  
+  
+  .feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff; /* Consistent primary color */
+  }
+  
+  .feature-card p {
+    font-size: 1em;
+    color: #555; /* Slightly darker color for better readability */
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .features-section {
+      padding: 30px 15px;
+    }
+  
+    .features-section h2 {
+      font-size: 1.75em;
+    }
+  
+    .features-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 80%;
+      max-width: none;
+    }
+  }
+  

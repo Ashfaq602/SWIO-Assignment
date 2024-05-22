@@ -1,0 +1,84 @@
+
+/* .third-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+
+.third-section img {
+    max-width: 80px; 
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; 
+  } */
+/* ThirdSection.css */
+
+/* Container styles */
+.third-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Image styles */
+  .third-section img {
+    max-width: 100px; /* Set maximum width for images */
+    height: auto;
+    border-radius: 8px;
+    margin: 10px; /* Add margin around images */
+  }
+  
+  /* Heading styles */
+  .third-section h5 {
+    color: #555;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .third-section h1 {
+    color: #333;
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  
+  .third-section h3 {
+    color: #666;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Styles for settings container */
+  .settings-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for settings content */
+  .settings-content {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px;
+    font-size: 30px;
+  }
+  
+  /* Second set of image styles */
+  .container2 {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 img {
+    max-width: 400px; /* Set maximum width for the second set of images */
+    height: auto;
+    border-radius: 8px;
+  }
+  
